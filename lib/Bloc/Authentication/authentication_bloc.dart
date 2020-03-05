@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:my_app/Repositories/userRepository.dart';
+import '../../Repositories/userRepository.dart';
 
 part 'authentication_events.dart';
 part 'authentication_state.dart';

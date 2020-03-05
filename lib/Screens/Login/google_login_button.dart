@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:my_app/Bloc/Login/login_bloc.dart';
+
+import '../../Bloc/Login/login_bloc.dart';
 
 class GoogleLoginButton extends StatelessWidget{
   @override

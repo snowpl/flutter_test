@@ -3,8 +3,9 @@ import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 import 'package:rxdart/rxdart.dart';
 import 'dart:async';
-import 'package:my_app/Repositories/userRepository.dart';
-import 'package:my_app/Validators/login_validator.dart';
+
+import '../../Repositories/userRepository.dart';
+import '../../Validators/login_validator.dart';
 
 part 'register_state.dart';
 part 'register_events.dart';

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_app/Bloc/Authentication/authentication_bloc.dart';
-import 'package:my_app/Bloc/bloc_delegate.dart';
-import 'package:my_app/Repositories/userRepository.dart';
-import 'package:my_app/Screens/Login/login_screen.dart';
-import 'package:my_app/Screens/home_screen.dart';
-import 'package:my_app/Screens/splash_screen.dart';
+
+import 'Bloc/Authentication/authentication_bloc.dart';
+import 'Bloc/bloc_delegate.dart';
+import 'Repositories/userRepository.dart';
+import 'Screens/Login/login_screen.dart';
+import 'Screens/home_screen.dart';
+import 'Screens/splash_screen.dart';
 
 void main(){
   WidgetsFlutterBinding.ensureInitialized();

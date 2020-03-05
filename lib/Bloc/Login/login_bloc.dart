@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 import 'package:rxdart/rxdart.dart';
 import 'dart:async';
-import 'package:my_app/Repositories/userRepository.dart';
-import 'package:my_app/Validators/login_validator.dart';
+
+import '../../Repositories/userRepository.dart';
+import '../../Validators/login_validator.dart';
 
 part 'login_state.dart';
 part 'login_events.dart';

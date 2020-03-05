@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_app/Bloc/Authentication/authentication_bloc.dart';
-import 'package:my_app/Bloc/Login/login_bloc.dart';
-import 'package:my_app/Repositories/userRepository.dart';
-import 'package:my_app/Screens/Login/create_account_button.dart';
-import 'package:my_app/Screens/Login/google_login_button.dart';
-import 'package:my_app/Screens/Login/login_button.dart';
+
+import '../../Bloc/Authentication/authentication_bloc.dart';
+import '../../Bloc/Login/login_bloc.dart';
+import '../../Repositories/userRepository.dart';
+import 'create_account_button.dart';
+import 'google_login_button.dart';
+import 'login_button.dart';
 
 class LoginForm extends StatefulWidget{
   final UserRepository _userRepository;
